@@ -1,1 +1,45 @@
-/* your code */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #1e3a5f;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #1e3a5f;
+}
+
+thead {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #b0bec5;
+    padding: 12px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dbeafe;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #bfdbfe;
+}
+
+th {
+    font-weight: bold;
+}
